@@ -5,6 +5,7 @@ Fork this respository. Answer the questions to the best of your ability. Try to 
 Note: When you're done, submit a PR.
 
 1. At a high level, what is ActiveRecord? What does it do/allow you to do?
+<br>
   Active record is a translation tool for writing SQL. It simplifies a lot of the long SQL commands and turns it into SQL for the computer to read.
 2. Assume you have the following model:
 
