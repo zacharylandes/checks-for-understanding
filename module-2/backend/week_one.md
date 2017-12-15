@@ -86,3 +86,4 @@ activities = {
 How would I add 'granola bar' to things you should have when hiking?
 
  activities[:hiking][:supplies].push('granola bar')
+

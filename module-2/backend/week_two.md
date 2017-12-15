@@ -5,7 +5,9 @@ Fork this respository. Answer the questions to the best of your ability. Try to 
 Note: When you're done, submit a PR.
 
 1. At a high level, what is ActiveRecord? What does it do/allow you to do?
+<br>
   Active record is a translation tool for writing SQL. It simplifies a lot of the long SQL commands and turns it into SQL for the computer to read.
+  <br>
 2. Assume you have the following model:
 
 ```ruby
@@ -14,12 +16,13 @@ end
 ```
 
 What are some methods you can call on `Team`? If these methods aren't defined in the class, how do you have access to them?
+<br>
 Because team inherits from Active Record you can use the active record methods like:
  where, find,order, and group
-
+<br>
 3. Assume that in your database, a team has the following attributes: "id", "name", owner_id". How would you find the name of a team with an id of 4? Assuming your class only included the code from question 2, how could you find the owner of the same team?
 
-team = Team.find(:id => 4)
+team = Team.find(:id => 4) <br>
 Owner.find(:id => team.owner_id )
 
 4. Assume that you added a line to your `Team` class as follows:
@@ -32,8 +35,8 @@ end
 
 Now how would you find the owner of the team with an id of 4?
 
-team = Team.find(:id => 4)
-Owner.find(:id => team.owner_id )
+team = Team.find(:id => 4)<br>
+team.owner
 
 5. In a database that's holding students and teachers, what will be the relationship between students and teachers? Draw the schema diagram.
 
@@ -43,6 +46,7 @@ and a student belongs_to a teacher
 in the schema, students will have a foreign key of teacher_id
 
 6. Define foreign key, primary key, and schema.
+<br>
 a foreign key is the column that  two tables share together to bind them together.
 a primary key is a unique column in a database, and usually pertains to a single table
  a schema is the visual representation of the database
