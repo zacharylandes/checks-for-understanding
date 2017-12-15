@@ -12,21 +12,25 @@ Note: When you're done, submit a PR with a reflection in the comments about how 
 1. What is the entry at the command line to create a new rails app?
 <br>
 rails new project_name -T -d="postgresql"
-
+<br>
 2. What do Models generally inherit from in rails?
 <br>
 Application record
+<br>
 3. What do Controllers generally inherit from in a rails project?
 <br>
 Application Controller
+<br>
 4. How would I create a route if I wanted to see a specific horse in my routes file assuming I'm sticking to standard conventions and that I didn't want other CRUD functionality?
 <br>
 resources :horses, only[:show]
-
+<br>
 5. What rake task is useful when looking at routes, and what information does it give you?
 <br>
 rake routes, shows the path name, the verb, the url, the conroller and view associated with your routes
+<br>
 6. What is an example of a route helper? When would you use them?
+<br>
 a route helper allows you to just type in the associated path using rails conventions instead of having to write out the whole url
 7. What's the difference between what `_url` and `_path` return when combined with a routes prefix?
   <br>
