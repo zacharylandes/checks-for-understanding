@@ -27,10 +27,12 @@ Application Controller
 <br>
 
 4. How would I create a route if I wanted to see a specific horse in my routes file assuming I'm sticking to standard conventions and that I didn't want other CRUD functionality?
+
 <br>
 
 resources :horses, only[:show]
 <br>
+
 5. What rake task is useful when looking at routes, and what information does it give you?
 <br>
 
@@ -45,6 +47,7 @@ a route helper allows you to just type in the associated path using rails conven
   <br>
   
 `_url` gives needs to be the whole url, `_path` only needs the prefix or path name
+
 8. What are strong params and why are the necessary?
 <br>
 
@@ -74,4 +77,5 @@ Because of the arguments that are passed it and also the route helper
 
 12. Why do we want to validate our models?
 <br>
+
 So we know we are getting the appropriate information from the user
