@@ -53,7 +53,7 @@ Because of the arguments that are passed it and also the route helper
 11. Create a form using a `form_for` helper to create a new `Horse`.
 <br>
 
-<%=form_for @horse, horse_path%>
+<%=form_for @horse do |f|%>
 <%=f.label :name%>
 <%=f.text_field :name%>
 <%end%>
