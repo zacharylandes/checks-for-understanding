@@ -13,16 +13,22 @@ Note: When you're done, submit a PR with a reflection in the comments about how 
 <br>
 rails new project_name -T -d="postgresql"
 <br>
+
 2. What do Models generally inherit from in rails?
 <br>
+
 Application record
 <br>
+
 3. What do Controllers generally inherit from in a rails project?
 <br>
+
 Application Controller
 <br>
+
 4. How would I create a route if I wanted to see a specific horse in my routes file assuming I'm sticking to standard conventions and that I didn't want other CRUD functionality?
 <br>
+
 resources :horses, only[:show]
 <br>
 5. What rake task is useful when looking at routes, and what information does it give you?
