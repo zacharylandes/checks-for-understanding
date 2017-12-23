@@ -10,9 +10,11 @@ Note: When you're done, submit a PR with a reflection in the comments about how 
 ### Questions
 
 * What is a cookie?
+
   A cookie is a bit of data that is stored on the browser that follows a user while they visit a website.
 
 * What’s the difference between a session and a cookie?
+
 A cookie is the data that is stored about a user usually on the browser,  a session is the data about the user that is stored on the server. Though in Rails, the session is stored on the browser so there isn't too much difference.
 
 * What’s a flash and when do you want to use flashes?
@@ -21,7 +23,7 @@ Flashes are bits of text that are displayed to report the status of an action, u
 
 * Why do people say “HTTP is stateless”?
 
-HTTP is statelss because it see every call as an entirely new call and doesn't store history or relationships in the call.
+HTTP is statelss because it sees every call as an entirely new call and doesn't store history or relationships in the call.
 
 * What’s authentication? Explain.
 
@@ -44,7 +46,7 @@ Authentication is verifying who is using the site, authorization is determining 
 
 * When do you want to namespace a resource? When do you want to nest a resource? What's the differences between those two approaches?
 
-nested routes are built off of resources that are dependent on each other. For example, if a user has many books, the books could be nested under the users routes.
+Nested routes are built off of resources that are dependent on each other. For example, if a user has many books, the books could be nested under the users routes.
 
   namespaced routes are more used for authorization and they tell rails to look under the folder structure defined by the routes.
 
