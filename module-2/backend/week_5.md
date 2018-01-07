@@ -8,7 +8,8 @@
 
 2. Where is cart information/temporary information usually stored?
 <br>
-as a hash in PORO
+
+as a hash in a PORO
 
 <br>
 3. What might be some reasons not to store cart in our database? Are there any reasons why we would want to persist that information?
@@ -34,8 +35,6 @@ we precompile to make our files readable faster to servers and browsers.
 6. What do each of the following tags do?
 <br>
 
-```ruby
-<br>
 
 <%= stylesheet_link_tag "application" %>
 <br>
@@ -49,7 +48,7 @@ this finds all the js in theapp
 
 
 <%= image_tag "rails.png" %>
-```
+
 <br>
 this renders rails.png
 <br>
@@ -73,7 +72,6 @@ cognition
 9. `before_save` is an example of a what? Where in our Rails application would we find a `before_save`?
 <br>
 this is a callback,
-
 we would find it in the base controller
 <br>
 10. Given the following object, how would we create a scope for all users who are active?
